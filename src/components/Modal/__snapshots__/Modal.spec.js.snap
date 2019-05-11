@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> Snapshots should match snapshot 1`] = `
+<div>
+  <div
+    class="rc-modal"
+  >
+    <h1
+      class="rc-title"
+    >
+      My awesome title
+    </h1>
+    <div
+      class="rc-modal-button-container"
+    />
+  </div>
+</div>
+`;
