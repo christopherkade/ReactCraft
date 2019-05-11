@@ -4,11 +4,11 @@
   color: #FFC700;
   padding: 0.25rem 2.5rem;
   border-radius: 6px;
-  border: 2px solid #8C8C8C;
+  border: 2px ridge #8C8C8C;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
   text-shadow: 1px 1.5px 1px black;
-  box-shadow: inset 0 0 2px 1px black;
+  box-shadow: inset 0 0 2px 0.5px black;
 }
 
 .rc-button:hover {

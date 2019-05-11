@@ -2,7 +2,7 @@ import React from 'react';
 import Tooltip from './Tooltip';
 import { render } from 'react-testing-library';
 
-describe('<Modal />', () => {
+describe('<Tooltip />', () => {
   describe('Snapshots', () => {
     it('should match snapshot', () => {
       const { container } = render(<Tooltip text="Hovered">Tooltip text</Tooltip>);

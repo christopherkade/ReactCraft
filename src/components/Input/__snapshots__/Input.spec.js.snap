@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> Snapshots should match snapshot 1`] = `
+<div>
+  <div>
+    <span
+      class="rc-input-label"
+    >
+      Say: 
+    </span>
+    <input
+      class="rc-input"
+    />
+  </div>
+</div>
+`;

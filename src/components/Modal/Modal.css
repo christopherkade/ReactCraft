@@ -5,7 +5,7 @@
   text-align: center;
   padding: 0.5rem 4rem;
   box-shadow: inset 1px 1px 7rem 0rem black;
-  border: 6px double #8C8C8C;
+  border: 0.25rem ridge #8C8C8C;
   width: 500px;
 }
 
