@@ -3,7 +3,7 @@
 exports[`<Tooltip /> Snapshots should match snapshot 1`] = `
 <div>
   <div
-    class="rc-tooltip"
+    class="sc-bdVaJa jWdCnC"
   >
     Tooltip text
   </div>

@@ -3,15 +3,15 @@
 exports[`<Modal /> Snapshots should match snapshot 1`] = `
 <div>
   <div
-    class="rc-modal"
+    class="sc-htpNat gvoZsD"
   >
     <h1
-      class="rc-title"
+      class="sc-bdVaJa cUfhWq"
     >
       My awesome title
     </h1>
     <div
-      class="rc-modal-button-container"
+      class="sc-bxivhb bzVgvM"
     />
   </div>
 </div>

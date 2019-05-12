@@ -4,12 +4,12 @@ exports[`<Input /> Snapshots should match snapshot 1`] = `
 <div>
   <div>
     <span
-      class="rc-input-label"
+      class="sc-bdVaJa klgfqw"
     >
       Say: 
     </span>
     <input
-      class="rc-input"
+      class="sc-bwzfXH iBLEiv"
     />
   </div>
 </div>

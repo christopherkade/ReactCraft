@@ -13,7 +13,7 @@ describe('<Tooltip />', () => {
   describe('tile prop', () => {
     it('should display Hover me! as the Tooltip\'s child', () => {
       const { container } = render(<Tooltip text="Hovered">Hover me!</Tooltip>);
-      expect(container.querySelector('.rc-tooltip').textContent).toBe('Hover me!');
+      expect(container.querySelector('div').textContent).toBe('Hover me!');
     });
   });
 });

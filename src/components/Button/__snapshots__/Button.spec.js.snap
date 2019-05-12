@@ -3,9 +3,11 @@
 exports[`<Button /> Snapshots should match snapshot 1`] = `
 <div>
   <button
-    class="rc-button"
+    class="sc-bdVaJa jwBbjC"
   >
-    Enter World
+    <span>
+      Enter World
+    </span>
   </button>
 </div>
 `;
