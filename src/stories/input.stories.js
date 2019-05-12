@@ -6,4 +6,4 @@ import { Input } from "../components/Input"
 import '../index.css';
 
 storiesOf('Input', module)
-  .add('default', () => <Input />)
+  .add('Default', () => <Input />)

@@ -6,4 +6,4 @@ import { Button } from "../components/Button"
 import '../index.css';
 
 storiesOf('Button', module)
-  .add('with text', () => <Button onClick={() => console.log("Hello")}>Enter World</Button>)
+  .add('With text', () => <Button onClick={() => console.log("Hello")}>Enter World</Button>)

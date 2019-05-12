@@ -6,6 +6,6 @@ import { Modal } from "../components/Modal"
 import '../index.css';
 
 storiesOf('Modal', module)
-  .add('with cancel button', () => <Modal title="Logging in to game server" cancelText="Cancel" />)
-  .add('with ok button', () => <Modal title="Logging in to game server" okText="Alright" />)
-  .add('with both buttons', () => <Modal title="Logging in to game server" okText="Alright" cancelText="Cancel" />)
+  .add('With cancel button', () => <Modal title="Logging in to game server" cancelText="Cancel" />)
+  .add('With ok button', () => <Modal title="Logging in to game server" okText="Alright" />)
+  .add('With both buttons', () => <Modal title="Logging in to game server" okText="Alright" cancelText="Cancel" />)

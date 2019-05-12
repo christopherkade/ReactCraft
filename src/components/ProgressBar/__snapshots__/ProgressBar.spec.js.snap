@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar /> Snapshots should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa iPboOU"
+    width="150"
+  >
+    <span
+      class="sc-htpNat lnrMpl"
+      width="150"
+    >
+      Fireball
+    </span>
+    <div
+      class="sc-bwzfXH kvktXM"
+    />
+  </div>
+</div>
+`;
