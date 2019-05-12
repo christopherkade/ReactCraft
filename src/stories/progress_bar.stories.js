@@ -3,8 +3,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { ProgressBar } from "../components/ProgressBar"
 
-import '../index.css';
-
 storiesOf('ProgressBar', module)
   .add('Default', () => <ProgressBar text="Fireball" />)
   .add('25%', () => <ProgressBar text="Fireball" percent={25} />)

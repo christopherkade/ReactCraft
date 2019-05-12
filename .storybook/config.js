@@ -1,5 +1,9 @@
-import { configure, addParameters } from '@storybook/react';
+import { configure, addParameters, addDecorator } from '@storybook/react';
 import { themes } from '@storybook/theming';
+
+import Decorator from "./decorators/Decorator"
+
+addDecorator(Decorator)
 
 const req = require.context('../src/stories', true, /\.stories\.js$/);
 
