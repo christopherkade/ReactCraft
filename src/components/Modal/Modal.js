@@ -6,6 +6,7 @@ import { Title } from "../Title"
 import { Button } from "../Button"
 
 const Wrapper = styled.div`
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color: rgb(22, 17, 14, 0.6);
@@ -28,6 +29,54 @@ const ButtonWrapper = styled.div`
   }
 `
 
+const TopLeft = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: #8C8C8C;
+  z-index: 100;
+  transform: rotate(45deg) translate(-10px);
+  border: 2px ridge #8C8C8C;
+`
+
+const TopRight = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: #8C8C8C;
+  z-index: 100;
+  transform: rotate(45deg) translateY(-10px);
+  border: 2px ridge #8C8C8C;
+`
+
+const BottomRight = styled.div`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: #8C8C8C;
+  z-index: 100;
+  transform: rotate(45deg) translate(10px);
+  border: 2px ridge #8C8C8C;
+`
+
+const BottomLeft = styled.div`
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0.25rem;
+  height: 0.25rem;
+  background-color: #8C8C8C;
+  z-index: 100;
+  transform: rotate(45deg) translateY(10px);
+  border: 2px ridge #8C8C8C;
+`
+
 const Modal = ({
   title,
   okText,
@@ -43,6 +92,11 @@ const Modal = ({
         {okText ? <Button onClick={onOk}>{okText}</Button> : null}
         {cancelText ? <Button onClick={onCancel}>{cancelText}</Button> : null}
       </ButtonWrapper>
+
+      <TopLeft />
+      <TopRight />
+      <BottomRight />
+      <BottomLeft />
     </Wrapper>
   )
 }
