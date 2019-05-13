@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon /> Snapshots should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa couKLk"
+    height="32"
+    width="32"
+  >
+    <i
+      class="sc-bwzfXH GmSjy"
+      height="32"
+      name="mockedName"
+      width="32"
+    />
+  </div>
+</div>
+`;

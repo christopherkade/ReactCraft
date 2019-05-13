@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from "styled-components"
 
-const Btn = styled.button`
+const StyledButton = styled.button`
   font-size: 1rem;
   background-color: #710504;
   color: #FFC700;
@@ -31,11 +31,11 @@ const Btn = styled.button`
 
 const Button = ({ children, onClick }) => {
   return (
-    <Btn onClick={onClick}>
+    <StyledButton onClick={onClick}>
       <span>
         {children}
       </span>
-    </Btn>
+    </StyledButton>
   )
 }
 
