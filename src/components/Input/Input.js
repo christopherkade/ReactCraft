@@ -1,6 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 
+import { BoxDecorators } from "../BoxDecorators"
+
+const Wrapper = styled.div`
+  position: relative;
+  display: inline-block;
+  border: 0.1875rem ridge darkgrey;
+`
+
 const Label = styled.span`
   font-family: Arial, Helvetica, sans-serif;
   position: absolute;
@@ -8,12 +16,12 @@ const Label = styled.span`
   margin-left: 0.5rem;
   margin-top: 5px;
   font-weight: lighter;
+  z-index: 100;
 `
 
 const InputBox = styled.input`
   font-family: Arial, Helvetica, sans-serif;
   box-shadow: inset 1px 1px 7rem 0rem black;
-  border: 3px ridge darkgrey;
   background-color: rgb(47, 27, 37, 0.8);
   color: white;
   border-radius: 2px;
@@ -27,10 +35,11 @@ const InputBox = styled.input`
 
 const Input = () => {
   return (
-    <div>
+    <Wrapper>
       <Label>Say: </Label>
       <InputBox />
-    </div>
+      <BoxDecorators />
+    </Wrapper>
   )
 }
 

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BoxDecorator /> Snapshots should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa fwHBtD"
+  />
+  <div
+    class="sc-bwzfXH dRmJHm"
+  />
+  <div
+    class="sc-htpNat iaYGmT"
+  />
+  <div
+    class="sc-bxivhb fnUviR"
+  />
+</div>
+`;

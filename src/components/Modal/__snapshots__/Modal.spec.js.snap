@@ -3,7 +3,7 @@
 exports[`<Modal /> Snapshots should match snapshot 1`] = `
 <div>
   <div
-    class="sc-htpNat fyMTWp"
+    class="sc-bZQynM cTcHWk"
   >
     <h1
       class="sc-bdVaJa cUfhWq"
@@ -11,19 +11,19 @@ exports[`<Modal /> Snapshots should match snapshot 1`] = `
       My awesome title
     </h1>
     <div
-      class="sc-bxivhb bzVgvM"
+      class="sc-gzVnrw fRQiHS"
     />
     <div
-      class="sc-ifAKCX cSZYAr"
+      class="sc-htpNat hiNjiC"
     />
     <div
-      class="sc-EHOje fZDMET"
+      class="sc-bxivhb Fcsib"
     />
     <div
-      class="sc-bZQynM cTONNa"
+      class="sc-ifAKCX eNGFoJ"
     />
     <div
-      class="sc-gzVnrw hHuWZU"
+      class="sc-EHOje eERDBL"
     />
   </div>
 </div>

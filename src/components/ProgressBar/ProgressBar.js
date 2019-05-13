@@ -2,13 +2,15 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
+import { BoxDecorators } from "../BoxDecorators"
+
 const Wrapper = styled.div`
   width: ${props => props.width}px;
   height: 1rem;
   position: relative;
   background-color: rgb(47, 27, 37, 0.8);
   box-shadow: inset 1px 1px 7rem 0rem black;
-  border: 3px ridge #8C8C8C;
+  border: 4px ridge #8C8C8C;
   text-align: center;
 `
 
@@ -42,6 +44,7 @@ const ProgressBar = ({ width, text, percent }) => {
         {text}
       </Label>
       <Bar percent={percent} />
+      <BoxDecorators />
     </Wrapper>
   )
 }

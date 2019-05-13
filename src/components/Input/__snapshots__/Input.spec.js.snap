@@ -2,14 +2,28 @@
 
 exports[`<Input /> Snapshots should match snapshot 1`] = `
 <div>
-  <div>
+  <div
+    class="sc-ifAKCX fLrNrX"
+  >
     <span
-      class="sc-bdVaJa klgfqw"
+      class="sc-EHOje lmvKLT"
     >
       Say: 
     </span>
     <input
-      class="sc-bwzfXH iBLEiv"
+      class="sc-bZQynM cJdTnp"
+    />
+    <div
+      class="sc-bdVaJa fwHBtD"
+    />
+    <div
+      class="sc-bwzfXH dRmJHm"
+    />
+    <div
+      class="sc-htpNat iaYGmT"
+    />
+    <div
+      class="sc-bxivhb fnUviR"
     />
   </div>
 </div>

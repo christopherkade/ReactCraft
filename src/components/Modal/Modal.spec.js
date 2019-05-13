@@ -20,8 +20,15 @@ describe('<Modal />', () => {
   describe('onClick prop', () => {
     it('should call onOk function when the Ok button is clicked', () => {
       const onClickMock = jest.fn();
-      const { getByText } = render(<Modal onOk={onClickMock} okText="Ok" title="onClick est" />);
+      const { getByText } = render(<Modal onOk={onClickMock} okText="Ok" title="onClick test" />);
       fireEvent.click(getByText('Ok'));
+      expect(onClickMock).toHaveBeenCalled();
+    });
+
+    it('should call onCancel function when the Cancel button is clicked', () => {
+      const onClickMock = jest.fn();
+      const { getByText } = render(<Modal onCancel={onClickMock} cancelText="Cancel" title="onClick test" />);
+      fireEvent.click(getByText('Cancel'));
       expect(onClickMock).toHaveBeenCalled();
     });
   });

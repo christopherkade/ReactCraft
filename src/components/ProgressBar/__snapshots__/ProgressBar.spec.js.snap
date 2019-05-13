@@ -3,17 +3,29 @@
 exports[`<ProgressBar /> Snapshots should match snapshot 1`] = `
 <div>
   <div
-    class="sc-bdVaJa iPboOU"
+    class="sc-ifAKCX jewqmR"
     width="150"
   >
     <span
-      class="sc-htpNat lnrMpl"
+      class="sc-bZQynM ranME"
       width="150"
     >
       Fireball
     </span>
     <div
-      class="sc-bwzfXH kvktXM"
+      class="sc-EHOje bVvRXt"
+    />
+    <div
+      class="sc-bdVaJa fwHBtD"
+    />
+    <div
+      class="sc-bwzfXH dRmJHm"
+    />
+    <div
+      class="sc-htpNat iaYGmT"
+    />
+    <div
+      class="sc-bxivhb fnUviR"
     />
   </div>
 </div>
