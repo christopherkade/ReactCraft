@@ -1,14 +1,8 @@
 {
   "name": "reactcraft",
-  "version": "0.1.0",
+  "description": "React component library based on World of Warcraft",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
-    "react-testing-library": "^7.0.0",
-    "styled-components": "^4.2.0"
-  },
   "scripts": {
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
@@ -17,6 +11,10 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherkade/ReactCraft.git"
   },
   "browserslist": {
     "production": [
@@ -30,12 +28,19 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.2.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.4",
-    "@storybook/addon-actions": "^5.0.11",
     "@storybook/addon-links": "^5.0.11",
     "@storybook/addons": "^5.0.11",
     "@storybook/react": "^5.0.11",
-    "babel-loader": "^8.0.5"
+    "babel-loader": "^8.0.5",
+    "react-testing-library": "^7.0.0",
+    "@storybook/addon-actions": "^5.0.11"
   }
 }

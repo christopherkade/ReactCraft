@@ -5,13 +5,15 @@ exports[`<Input /> Snapshots should match snapshot 1`] = `
   <div
     class="sc-ifAKCX fLrNrX"
   >
-    <span
+    <label
       class="sc-EHOje lmvKLT"
+      for="input"
     >
       Say: 
-    </span>
+    </label>
     <input
-      class="sc-bZQynM cJdTnp"
+      class="sc-bZQynM crzCYf"
+      name="input"
     />
     <div
       class="sc-bdVaJa fwHBtD"

@@ -1,4 +1,8 @@
-<img width="50%" alt="" src="https://user-images.githubusercontent.com/15229355/57574127-7b29c580-7433-11e9-9eb8-a58b55ea9388.png">
+<img style="display: flex; justify-content: center; align-content: center;" width="50%" alt="" src="https://user-images.githubusercontent.com/15229355/57574127-7b29c580-7433-11e9-9eb8-a58b55ea9388.png">
+
+<br>
+
+<img src="https://travis-ci.org/christopherkade/ReactCraft.svg?branch=master">
 
 :construction: Work in progress :construction:
 

@@ -31,7 +31,7 @@ const Separator = styled.div`
   position: relative;
   height: 0.5rem;
   width: 5%;
-  border-right: 1px solid #8D959C;
+  border-right: 1px groove #8D959C;
   z-index: 2;
   top: -1.2rem;
 `
@@ -42,11 +42,13 @@ const Label = styled.span`
   z-index: 3;
   font-size: 0.6rem;
   top: -0.5rem;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
 `
 
 const ProgressBar = ({ width, percent, text, separators }) => {
   let allSeparators = []
-  
+
   // Create 20 Separators for our progress bar
   for (let i = 0; i < 19; i++) {
     allSeparators.push(<Separator key={i} />)
@@ -83,6 +85,5 @@ ProgressBar.defaultProps = {
   percent: 0,
   separators: true
 };
-
 
 export default ProgressBar

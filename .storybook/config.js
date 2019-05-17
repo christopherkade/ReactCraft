@@ -1,7 +1,7 @@
 import { configure, addParameters, addDecorator } from '@storybook/react';
-import { themes } from '@storybook/theming';
 
 import Decorator from "./decorators/Decorator"
+import theme from "./theme"
 
 addDecorator(Decorator)
 
@@ -13,7 +13,7 @@ function loadStories() {
 
 addParameters({
   options: {
-    theme: themes.dark,
+    theme: theme,
     showPanel: false,
   },
 });

@@ -13,7 +13,7 @@ describe('<Input />', () => {
   describe('input label', () => {
     it('should display Say: as the input\'s label', () => {
       const { container } = render(<Input />);
-      expect(container.querySelector("span").textContent).toBe('Say: ')
+      expect(container.querySelector("label").textContent).toBe('Say: ')
     })
   })
 });
