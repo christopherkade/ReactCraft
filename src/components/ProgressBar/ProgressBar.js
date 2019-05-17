@@ -2,49 +2,70 @@ import React from "react"
 import styled from "styled-components"
 import PropTypes from "prop-types"
 
-import { BoxDecorators } from "../BoxDecorators"
-
 const Wrapper = styled.div`
-  width: ${props => props.width}px;
-  height: 1rem;
+  width: ${props => props.width}%;
+  height: 0.5rem;
   position: relative;
   background-color: rgb(47, 27, 37, 0.8);
-  box-shadow: inset 1px 1px 7rem 0rem black;
-  border: 4px ridge #8C8C8C;
+  border: 1px solid #8C8C8C;
   text-align: center;
+  border-radius: 3px;
 `
 
 const Bar = styled.div`
   width: ${props => props.percent}%;
-  height: 1rem;
-  background-color: #B27A02;
-  background: rgb(183,127,0);
-  background: linear-gradient(90deg, rgba(183,127,0,1) 96%, rgba(254,255,127,1) 100%);
-  box-shadow: inset 1px 1px 0.5rem 0rem black;
+  height: 0.5rem;
+  background-color: #074FB3;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
 `
 
-const Label = styled.span`
+const SeparatorWrapper = styled.div`
   position: relative;
-  margin-left: 2px;
-  margin-top: 2px;
-  color: white;
-  z-index: 2;
-  font-size: 1.2rem;
-  top: -0.25rem;
+  display: flex;
 `
 
-const ProgressBar = ({ width, text, percent }) => {
+const Separator = styled.div`
+  position: relative;
+  height: 0.5rem;
+  width: 5%;
+  border-right: 1px solid #8D959C;
+  z-index: 2;
+  top: -1.2rem;
+`
+
+const Label = styled.span`
+  position: relative;
+  color: white;
+  z-index: 3;
+  font-size: 0.6rem;
+  top: -0.5rem;
+`
+
+const ProgressBar = ({ width, percent, text, separators }) => {
+  let allSeparators = []
+  
+  // Create 20 Separators for our progress bar
+  for (let i = 0; i < 19; i++) {
+    allSeparators.push(<Separator key={i} />)
+  }
+
   return (
     <Wrapper width={width}>
-      <Label width={width}>
+      <Label>
         {text}
       </Label>
       <Bar percent={percent} />
-      <BoxDecorators />
+
+      {
+        separators ?
+          <SeparatorWrapper>
+            {allSeparators.map(separator => separator)}
+          </SeparatorWrapper>
+          : null
+      }
     </Wrapper>
   )
 }
@@ -53,12 +74,15 @@ ProgressBar.propTypes = {
   width: PropTypes.number,
   text: PropTypes.string,
   percent: PropTypes.number,
+  separators: PropTypes.bool,
 };
 
 ProgressBar.defaultProps = {
-  width: 150,
-  text: "Fireball",
+  width: 100,
+  text: "XP",
   percent: 0,
+  separators: true
 };
+
 
 export default ProgressBar

@@ -12,14 +12,14 @@ describe('<ProgressBar />', () => {
   });
 
   describe('text prop', () => {
-    it('should display Fireball as the default text', () => {
+    it('should display XP as the default text', () => {
       const { container } = render(<ProgressBar />)
-      expect(container.textContent).toBe("Fireball")
+      expect(container.textContent).toBe("XP")
     })
 
-    it('should display Frostbolt as the text', () => {
-      const { container } = render(<ProgressBar text="Frostbolt" />)
-      expect(container.textContent).toBe("Frostbolt")
+    it('should display XP 13000/20000 as the text', () => {
+      const { container } = render(<ProgressBar text="XP 13000/20000" />)
+      expect(container.textContent).toBe("XP 13000/20000")
     })
   })
 });

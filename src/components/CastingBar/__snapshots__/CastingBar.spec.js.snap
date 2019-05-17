@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CastingBar /> Snapshots should match snapshot 1`] = `
+<div>
+  <div
+    class="sc-ifAKCX jewqmR"
+    width="150"
+  >
+    <span
+      class="sc-bZQynM ranME"
+    >
+      Fireball
+    </span>
+    <div
+      class="sc-EHOje bVvRXt"
+    />
+    <div
+      class="sc-bdVaJa fwHBtD"
+    />
+    <div
+      class="sc-bwzfXH dRmJHm"
+    />
+    <div
+      class="sc-htpNat iaYGmT"
+    />
+    <div
+      class="sc-bxivhb fnUviR"
+    />
+  </div>
+</div>
+`;

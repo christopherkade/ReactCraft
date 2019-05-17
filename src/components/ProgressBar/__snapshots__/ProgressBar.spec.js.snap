@@ -3,30 +3,78 @@
 exports[`<ProgressBar /> Snapshots should match snapshot 1`] = `
 <div>
   <div
-    class="sc-ifAKCX jewqmR"
-    width="150"
+    class="sc-bdVaJa lplghd"
+    width="100"
   >
     <span
-      class="sc-bZQynM ranME"
-      width="150"
+      class="sc-ifAKCX dBRuYL"
     >
-      Fireball
+      XP
     </span>
     <div
-      class="sc-EHOje bVvRXt"
+      class="sc-bwzfXH biuUzr"
     />
     <div
-      class="sc-bdVaJa fwHBtD"
-    />
-    <div
-      class="sc-bwzfXH dRmJHm"
-    />
-    <div
-      class="sc-htpNat iaYGmT"
-    />
-    <div
-      class="sc-bxivhb fnUviR"
-    />
+      class="sc-htpNat gFDnaA"
+    >
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+      <div
+        class="sc-bxivhb cBeylf"
+      />
+    </div>
   </div>
 </div>
 `;
