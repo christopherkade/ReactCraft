@@ -2,7 +2,8 @@
 
 <br>
 
-<img src="https://travis-ci.org/christopherkade/ReactCraft.svg?branch=master">
+[![Build Status](https://travis-ci.org/christopherkade/ReactCraft.svg?branch=master)](https://travis-ci.org/christopherkade/ReactCraft)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 :construction: Work in progress :construction:
 

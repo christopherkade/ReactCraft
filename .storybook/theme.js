@@ -24,7 +24,7 @@ export default create({
   // Form colors
   inputBg: 'white',
   inputBorder: 'silver',
-  inputTextColor: 'black',
+  inputTextColor: 'white',
   inputBorderRadius: 4,
 
   brandTitle: 'ReactCraft',
