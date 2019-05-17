@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/main.3bb8743edbd9c7aef2ac.bundle.js",
+    "main.js.map": "/main.3bb8743edbd9c7aef2ac.bundle.js.map",
+    "runtime~main.js": "/runtime~main.3bb8743edbd9c7aef2ac.bundle.js",
+    "runtime~main.js.map": "/runtime~main.3bb8743edbd9c7aef2ac.bundle.js.map",
+    "vendors~main.js": "/vendors~main.3bb8743edbd9c7aef2ac.bundle.js",
+    "vendors~main.js.map": "/vendors~main.3bb8743edbd9c7aef2ac.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.b670e7b87fb43941acde0a144f6eb873.js": "/precache-manifest.b670e7b87fb43941acde0a144f6eb873.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/FrizQuadrataTT.ttf": "/static/media/FrizQuadrataTT.8eccce15.ttf"
+  }
+}
